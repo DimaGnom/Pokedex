@@ -1,0 +1,140 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+  padding-right: 20%;
+  /* margin: 3%; */
+  flex-direction: row;
+}
+
+.box {
+  width: 100%;
+  max-height: 80vh;
+  overflow: auto;
+  margin-left: 10%;
+  margin-right: 25%;
+}
+.boxWithButton{
+  width: 69%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.btn{
+  margin-left: 60%;
+  width: 90px;
+}
+
+.choice{
+  /* width: 25%;
+  margin-top: 5%; */
+  margin-bottom: 20%;
+  border: 1px solid black; 
+ 
+}
+
+.button:hover {
+  box-shadow: 0 0 12px #6633FF;
+  -moz-box-shadow: 0 0 12px #6633FF;
+  -o-box-shadow: 0 0 12px #6633FF;
+  -ms-box-shadow: 0 0 12px #6633FF;
+  -webkit-box-shadow: 0 0 12px #6633FF;
+}
+
+.choiceTable
+{
+  width: 100%;
+}
+td{
+  border: 1px solid black;
+  width: 100%;  
+}
+
+tr{
+  border: 1px solid black;
+}
+
+.pokeDex{
+  margin-left: 50%;
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 37%;
+  border: 1px solid black;
+
+}
+
+
+
+.normal{
+  background-color: rgb(176, 164, 164);
+}
+.fire{
+  background-color: rgb(243, 91, 91);
+}
+.water{
+  background-color: rgb(36, 161, 234);
+}
+.electric{
+  background-color: yellow;
+}
+.grass{
+  background-color: rgb(84, 200, 84);
+  }
+.ice{
+  background-color: rgb(30, 247, 251);
+}
+.fighting{
+  background-color: rgb(165, 43, 43);
+}
+.poison{
+  background-color: rgb(173, 106, 235);
+}
+.ground{
+  background-color: rgb(244, 232, 97);
+}
+.flying{
+  background-color: rgb(85, 208, 253);
+}
+.psychic{
+  background-color: rgb(247, 79, 107);
+}
+.bug{
+  background-color: greenyellow;
+}
+.rock{
+  background-color: rgb(159, 159, 78);
+}
+.ghost{
+  background-color: #6633ff;
+}
+.dragon{
+  background-color: rgb(119, 81, 176);
+}
+.dark{
+  background-color: rgb(59, 4, 4);
+}
+.steel{
+  background-color: rgb(187, 172, 172);
+}
+.fairy{
+  background-color: pink;
+}
+
+
+
+img {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+}
+
+.choicePokemon{
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+
